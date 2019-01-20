@@ -1,10 +1,6 @@
 # 1.1-git-exercise
 UVic Robotics Integration 1.1 exercise
-
-# git-tests
-
-This is a simple markdown manual to know how to write it:
-https://guides.github.com/features/mastering-markdown/
+This is a simple markdown manual to know how to write it: https://guides.github.com/features/mastering-markdown/
 
 ## Git concepts
 * Repository: Project space where files and history of the development are stored
