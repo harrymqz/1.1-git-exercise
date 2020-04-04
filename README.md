@@ -41,3 +41,22 @@ git config --global credential.helper cache
 If you wanted Git to remember it for longer, you can do so by specifying a --timeout=:
 ```
 git config --global credential.helper "cache --timeout=3600"
+```
+
+## This is for my friend Bernat
+In order to get started with git:
+If you have an existing repository and you want to download into your computer:
+
+```
+git clone https://github.com/lobernat/your-repository.git
+```
+If you have done some changes you can check it with:
+```
+git status
+```
+If you want to upload your changes into the repository, please do:
+```
+git add . # Add the changes into your local stack
+git commit -am "Your commit comment here!" # Add a comment for your commit
+git push origin master # This pushes the local changes into your master branch
+```
