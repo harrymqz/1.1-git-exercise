@@ -59,4 +59,5 @@ If you want to upload your changes into the repository, please do:
 git add . # Add the changes into your local stack
 git commit -am "Your commit comment here!" # Add a comment for your commit
 git push origin master # This pushes the local changes into your master branch
+
 ```
