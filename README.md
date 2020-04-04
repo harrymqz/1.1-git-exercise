@@ -49,29 +49,28 @@ In order to get started with git:
 ### If you create a new repository and you start the project from 0:
 
 ```
-# Download the repository into your computer
+# Create a new repository and download it into your computer:
 git clone https://github.com/lobernat/your-repository.git
 ```
 ```
-# If you have done some changes you can check it with:
+# If you have done some changes you can check it with (This command is your friend):
 git status
 ```
 ```
 # If you want to upload your changes into the repository, please do:
-git add . # Add the changes into your local stack
+git add . # Add the non-existing files into your local stack
 git commit -am "Your commit comment here!" # Add a comment for your commit
 git push origin master # This pushes the local changes into your master branch
 
 ```
 
-In order to get started with git:
-### If you have your project already create and you want to upload into your repository:
+### If you have your project already created and you want to upload into your repository:
 
 ```
 # Create a new repository and copy de url:
 # Go into your project folder and type the following commands:
 git init # In order to initialize your local repository
-git remote add origin address.git # Paste the remote repository address "address.git"
+git remote add origin address.git # Paste the remote repository address "address.git" to set up the remote
 ```
 ```
 # If you have done some changes you can check it with:
@@ -83,4 +82,3 @@ git add . # Add the changes into your local stack
 git commit -am "Your commit comment here!" # Add a comment for your commit
 git push origin master # This pushes the local changes into your master branch
 ```
-
